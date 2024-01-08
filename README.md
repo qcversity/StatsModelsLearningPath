@@ -89,10 +89,14 @@ mamba activate smlpenv
 
 #### Using `conda`
 
-If `conda` is your main package manager you can set up your environment using the following command:
+If `conda` is your main package manager you can set up your environment using one of the following commands:
 
 ```
-conda create -n smplenv --file package-list.txt
+conda env create -f environment.yml
+```
+
+```
+conda create -n smplenv --file environment.txt
 ```
 
 #### Using `venv` Virtual Environment Tool
