@@ -96,7 +96,7 @@ conda env create -f environment.yml
 ```
 
 ```
-conda create -n smplenv --file environment.txt
+conda create -n smlpenv --file environment.txt
 ```
 
 #### Using `venv` Virtual Environment Tool
